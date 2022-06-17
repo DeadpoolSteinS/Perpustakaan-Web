@@ -21,7 +21,7 @@
                 </ul>
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Logout</a>
+                        <a class="nav-link active" aria-current="page" href="#">Login</a>
                     </li>
                 </ul>
             </div>
@@ -36,47 +36,40 @@
         </div>
     </div>
     <div class="book-list">
-        <div class="container" style="display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem;">
-            <div class="card mb-3" style="max-width: 350px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="img/manga_demon-slayer.jpg" class="card-img-top" alt="Demon Slayer">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Demon Slayer</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <a href="#" class="btn btn-primary">Detail</a>
-                        </div>
-                    </div>
+        <div class="container" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px;">
+            <div class="card p-4" style="font-size: 0.8rem; background-color: rgb(248, 249, 250)">
+                <img src="img/manga_demon-slayer.jpg" class="card-img-top" alt="Demon Slayer">
+                <div class="card-body p-0 mt-2">
+                    <h5 class="card-title">Demon Slayer</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
-            <div class="card mb-3" style="max-width: 350px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="img/manga_demon-slayer.jpg" class="card-img-top" alt="Demon Slayer">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Demon Slayer</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <a href="#" class="btn btn-primary">Detail</a>
-                        </div>
-                    </div>
+            <div class="card p-4" style="font-size: 0.8rem; background-color: rgb(248, 249, 250)">
+                <img src="img/manga_kanojo-okari.jpg" class="card-img-top" alt="Kanojo Okarishimasu">
+                <div class="card-body p-0 mt-2">
+                    <h5 class="card-title">Kanojo Okarishimasu</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
-            <div class="card mb-3" style="max-width: 350px;">
-                <div class="row g-0">
-                    <div class="col-md-4">
-                        <img src="img/manga_demon-slayer.jpg" class="card-img-top" alt="Demon Slayer">
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Demon Slayer</h5>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <a href="#" class="btn btn-primary">Detail</a>
-                        </div>
-                    </div>
+            <div class="card p-4" style="font-size: 0.8rem; background-color: rgb(248, 249, 250)">
+                <img src="img/manga_demon-slayer.jpg" class="card-img-top" alt="Demon Slayer">
+                <div class="card-body p-0 mt-2">
+                    <h5 class="card-title">Demon Slayer</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="card p-4" style="font-size: 0.8rem; background-color: rgb(248, 249, 250)">
+                <img src="img/manga_kanojo-okari.jpg" class="card-img-top" alt="Kanojo Okarishimasu">
+                <div class="card-body p-0 mt-2">
+                    <h5 class="card-title">Kanojo Okarishimasu</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="card p-4" style="font-size: 0.8rem; background-color: rgb(248, 249, 250)">
+                <img src="img/manga_demon-slayer.jpg" class="card-img-top" alt="Demon Slayer">
+                <div class="card-body p-0 mt-2">
+                    <h5 class="card-title">Demon Slayer</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 </div>
             </div>
         </div>
